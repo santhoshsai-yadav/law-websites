@@ -1,0 +1,105 @@
+.checkbtn{
+    border-radius: 2px;
+    border: 2px solid black;
+    display: none;
+    margin-right: 20px;
+
+}
+#check{
+    display: none;
+}
+@media (max-width:576px) {
+    .navlinks{
+     position: absolute;
+     flex-direction: column;
+     display: none;
+     height: 40px;
+     width: 100%;
+     top: 250px;
+    
+    }
+    .navlinks a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 110%;
+        width: 100%;
+        padding: 12px 240px;
+        background-color: #626262;
+    }
+    .navlinks a:hover{
+        background-color: #000;
+    }
+    .checkbtn{
+        display: block;
+    }
+    #check:checked~.navlinks{
+        display: flex;
+    }
+
+    .herosection{
+        width: 100%;
+        overflow: hidden;
+    }
+    .manes{
+        width: 100%;
+        flex-direction: column;
+        padding: 10px 30px;
+      
+    }
+    .test{
+        margin-top: 20px;
+    }
+    .navcontainer img{
+        padding: 0 20px;
+    }
+    .promise {
+        width: 100%;
+    }
+    .hero{
+        padding: 0;
+        width: 100%;
+
+    }
+    .hero h1{
+        width: 100%;
+    }
+   
+.contactus{
+    margin-left: 15px;
+  
+}
+.us h6{
+    margin-right: 0;
+}
+
+.promise h2{
+    padding: 0;
+}
+.promise p{
+    padding: 0;
+}
+.test h3{
+    padding: 0;
+}
+.test p{
+    padding: 0;
+}
+.chose{
+    padding: 0;
+}
+.card{
+    padding: 0;
+}
+
+.footercontainer{
+    padding: 26px;
+}
+.cardcontainer{
+    padding: 10px;
+}
+.footerhead h5{
+    padding: 10px;
+}
+
+}
